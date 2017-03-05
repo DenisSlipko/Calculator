@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
-
+@property (weak, nonatomic) IBOutlet UILabel *labelResult;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *mathButtons;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *numberButtons;
 @end
 

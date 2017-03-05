@@ -67,7 +67,7 @@
 
 
 - (int) someOperationsOfMath {
-    NSLog(@"accumulator = %f\n_operand = %f",self.calculator.myCounter,someOperand);
+    NSLog(@" = %f\n = %f",self.calculator.myCounter,someOperand);
     switch (operationsOfMath) {
         case 1:
             [self.calculator sum:someOperand];
